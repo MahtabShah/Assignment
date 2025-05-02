@@ -29,7 +29,7 @@ body {
   padding: 0.5rem 0 !important;
 }
 
-@media screen and (min-width: 0) and (max-width: 480px) {
+@media screen and (min-width: 0) and (max-width: 600px) {
   * {
     font-size: clamp(9px, calc(4% + 0.4rem + 2vw), 1.32rem);
   }
@@ -38,12 +38,18 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: calc(2rem - 2%) !important;
+    padding: 0 !important;
   }
 
   .leftsection {
-    gap: 2.7rem !important;
-    padding: calc(2.4rem - 5%) !important;
+    gap: calc(2.7rem - 2vw) !important;
+    padding: calc(2.4rem - 4%) !important;
     /* border-radius: 0 !important; */
+  }
+
+  .leftsection > span,
+  .leftsection > a {
+    margin: 0 !important;
   }
 
   span,
