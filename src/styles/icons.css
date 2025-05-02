@@ -47,3 +47,7 @@ a:hover span i {
   /* border: 2px solid red; */
   grid-template-columns: repeat(2, minmax(100px, 1fr));
 }
+
+.bottomsection .ispan {
+  padding: 10% !important;
+}

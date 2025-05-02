@@ -31,7 +31,7 @@ body {
 
 @media screen and (min-width: 0) and (max-width: 480px) {
   * {
-    font-size: clamp(9px, calc(2% + 0.4rem + 1vw), 1.32rem);
+    font-size: clamp(9px, calc(4% + 0.4rem + 1vw), 1.32rem);
   }
 
   .bottomsection {
@@ -64,5 +64,9 @@ body {
 
   :where(form) :where(li) {
     width: 100% !important;
+  }
+
+  .alink {
+    padding: calc(2% + 1rem) !important;
   }
 }

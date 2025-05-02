@@ -3,9 +3,9 @@ const Icon = ({ icon, ExtraClass = "flex-column justify-content-center" }) => {
     <>
       <a
         href={`https://${icon.alink}.com`}
-        className={`icon-container d-flex align-items-center justify-content-center border p-2 pe-4 ps-4 d-flex rounded-4 text-decoration-none transition transition-1000 ${ExtraClass} alink`}
+        className={`icon-container d-flex align-items-center justify-content-center border p-2 pe-3 ps-3 d-flex rounded-4 text-decoration-none transition transition-1000 ${ExtraClass} alink`}
       >
-        <span className="d-flex flex-grow-1 align-items-center justify-content-end p-2">
+        <span className="d-flex flex-grow-1 align-items-center justify-content-end p-2 ispan">
           <i class={`fab fa-${icon.ilink} fs-2 text-white`}></i>
         </span>
         <span className="text-center text-white">{icon.name}</span>
