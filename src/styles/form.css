@@ -1,0 +1,50 @@
+form {
+  /* border: 2px solid red !important; */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  list-style: none;
+}
+
+form ul li {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+form ul li input,
+form button {
+  border: 2px solid var(--icon-bg1-color);
+  border-radius: 4px;
+  padding: 2px 4px;
+  height: 32px;
+}
+
+form button {
+  background: linear-gradient(90deg, #f64606, #ffb300);
+}
+
+.text-yellred {
+  color: transparent;
+  background: linear-gradient(90deg, #ff0000, #ff0000);
+  background-clip: text;
+}
+
+form button i {
+  color: #fb4d0e;
+  transform: translateX(-10px);
+}
+
+form button:hover i {
+  transform: translateX(0px);
+  color: #ffd000;
+}
+
+button:hover {
+  box-shadow: 0 0 4px red;
+  background: linear-gradient(270deg, #f64606, #ffb300);
+}
+
+form input {
+  border-radius: 1px !important;
+  border: 1px solid transparent;
+}

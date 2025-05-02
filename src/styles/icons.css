@@ -1,0 +1,49 @@
+:root {
+  --icon-f1-color: #6b11cb;
+  --icon-f2-color: #a13ee8;
+  --icon-bg1-color: #822eddad;
+  --icon-bg2-color: #aa57e6a1;
+  --icon-bg3-color: #832edd7b;
+  --icon-bg4-color: #832edd71;
+}
+* {
+  transition-duration: 0.1s;
+}
+
+.leftsection {
+  background: linear-gradient(
+    30deg,
+    var(--icon-bg2-color),
+    var(--icon-bg1-color),
+    var(--icon-bg2-color)
+  );
+  height: max-content;
+  /* border: 2px solid red !important; */
+}
+
+.icon-container {
+  background: linear-gradient(
+    140deg,
+    var(--icon-f1-color) 20%,
+    var(--icon-f2-color)
+  );
+}
+
+a:hover {
+  background: linear-gradient(
+    -40deg,
+    var(--icon-f3-color),
+    var(--icon-bg2-color)
+  );
+
+  box-shadow: 0 2px0 5px rgba(26, 26, 26, 0.478);
+}
+
+a:hover span i {
+  transform: translateY(2px);
+}
+
+.bottomsection {
+  /* border: 2px solid red; */
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+}

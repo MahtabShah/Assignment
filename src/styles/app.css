@@ -1,0 +1,68 @@
+.container {
+  background: linear-gradient(
+    140deg,
+    var(--icon-bg4-color),
+    var(--icon-bg3-color),
+    var(--icon-bg4-color)
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    140deg,
+    var(--icon-bg4-color),
+    var(--icon-bg3-color),
+    var(--icon-bg4-color)
+  );
+
+  min-height: 100vh;
+}
+
+:where(form) :where(h3, ul) {
+  /* border: 2px solid orange !important; */
+  padding: 0.5rem 0 !important;
+}
+
+@media screen and (min-width: 0) and (max-width: 480px) {
+  * {
+    font-size: clamp(9px, calc(2% + 0.4rem + 1vw), 1.32rem);
+  }
+
+  .bottomsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  span,
+  .container {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #main {
+    padding: calc(20% - 120px) !important;
+  }
+
+  #section2 {
+    /* border: 2px solid rgb(242, 61, 7) !important; */
+    padding: calc(0.3rem + 1%) !important;
+  }
+
+  :where(form) :where(div) {
+    flex-direction: column;
+  }
+
+  :where(form) :where(button) {
+    align-items: center;
+  }
+
+  :where(form) :where(li) {
+    width: 100% !important;
+  }
+}
