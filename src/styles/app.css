@@ -50,9 +50,9 @@ body {
     padding: calc(20% - 120px) !important;
   }
 
-  #section2 {
+  .section2 {
     /* border: 2px solid rgb(242, 61, 7) !important; */
-    padding: calc(0.3rem + 1%) !important;
+    padding: 0 !important;
   }
 
   :where(form) :where(div) {
@@ -74,5 +74,6 @@ body {
   .leftsection {
     gap: 2.7rem !important;
     padding: calc(2.4rem - 5%) !important;
+    border-radius: 0 !important;
   }
 }
