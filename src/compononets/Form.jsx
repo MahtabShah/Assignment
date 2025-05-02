@@ -30,7 +30,7 @@ const Form = () => {
           Book 1 on 1 call counselling from MBA Expert.
         </h3>
 
-        <ul className="d-grid gap-4 rounded-4">
+        <ul className="d-grid gap-4">
           <div className="d-flex justify-content-between gap-4">
             <li>
               <label htmlFor="name" className="form-label">
@@ -43,8 +43,6 @@ const Form = () => {
                 placeholder="Enter your Name"
                 required
               />
-              {/* <div className="invalid-feedback">Please enter a username.</div>
-              <div className="valid-feedback">Looks good!</div> */}
             </li>
 
             <li>
@@ -58,9 +56,6 @@ const Form = () => {
                 placeholder="Enter your Number"
                 required
               />
-              {/* <div className="invalid-feedback">
-                Please enter a valid number.
-              </div> */}
             </li>
           </div>
 
@@ -75,7 +70,6 @@ const Form = () => {
               placeholder="Enter your Email"
               required
             />
-            {/* <div className="invalid-feedback">Please enter a valid email.</div> */}
           </li>
 
           <div className="d-flex justify-content-between gap-4">

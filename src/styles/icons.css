@@ -1,6 +1,6 @@
 :root {
-  --icon-f1-color: #6b11cb;
-  --icon-f2-color: #a13ee8;
+  --icon-f1-color: #630dbfe9;
+  --icon-f2-color: #933ee8;
   --icon-bg1-color: #822eddad;
   --icon-bg2-color: #aa57e6a1;
   --icon-bg3-color: #832edd7b;
@@ -37,6 +37,10 @@ a:hover {
   );
 
   box-shadow: 0 2px0 5px rgba(26, 26, 26, 0.478);
+}
+
+div {
+  border-radius: 5px !important;
 }
 
 a:hover span i {
