@@ -31,12 +31,13 @@ body {
 
 @media screen and (min-width: 0) and (max-width: 480px) {
   * {
-    font-size: clamp(9px, calc(7% + 0.4rem + 2vw), 1.32rem);
+    font-size: clamp(9px, calc(4% + 0.4rem + 2vw), 1.32rem);
   }
 
   .bottomsection {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: calc(2rem - 2%) !important;
   }
 
   span,
@@ -71,6 +72,7 @@ body {
   }
 
   .leftsection {
-    gap: 3rem !important;
+    gap: 2.7rem !important;
+    padding: calc(2.4rem - 5%) !important;
   }
 }
