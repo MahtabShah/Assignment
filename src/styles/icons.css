@@ -1,10 +1,10 @@
 :root {
-  --icon-f1-color: #630dbfe9;
-  --icon-f2-color: #933ee8;
-  --icon-bg1-color: #822eddad;
+  --icon-f1-color: #4c1e96b2;
+  --icon-f2-color: #9838f85a;
+  --icon-bg1-color: #832eddc0;
   --icon-bg2-color: #aa57e6a1;
-  --icon-bg3-color: #832edd7b;
-  --icon-bg4-color: #832edd71;
+  --icon-bg3-color: #b26efa81;
+  --icon-bg4-color: #bd8feec7;
 }
 * {
   transition-duration: 0.1s;
@@ -13,9 +13,9 @@
 .leftsection {
   background: linear-gradient(
     30deg,
+    var(--icon-bg3-color),
     var(--icon-bg2-color),
-    var(--icon-bg1-color),
-    var(--icon-bg2-color)
+    var(--icon-bg3-color)
   );
   height: max-content;
   /* border: 2px solid red !important; */

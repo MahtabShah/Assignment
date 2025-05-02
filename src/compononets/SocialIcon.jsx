@@ -24,7 +24,7 @@ const SocialIcons = () => {
         id="sect ion2"
       >
         <span className="fs-4 text-dark fw-bold ms-4 me-4">
-          Help us build the largest CAT community
+          Help us build the Largest CAT communities
         </span>
         {
           <Icon

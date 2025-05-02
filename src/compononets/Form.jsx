@@ -27,7 +27,7 @@ const Form = () => {
         noValidate
       >
         <h3 className="fs-4 text-dark fw-bold">
-          Book 1 on 1 call counselling from MBA Expert.
+          Book 1 on 1 call counselling from MBA Expert
         </h3>
 
         <ul className="d-grid gap-4">
@@ -116,7 +116,7 @@ const Form = () => {
             <li>
               <button
                 type="submit"
-                className="btn btn-primary d-flex justify-content-between align-items-center"
+                className="btn border-0 d-flex justify-content-between align-items-center"
               >
                 <span>SUBMIT</span>
                 <span>
