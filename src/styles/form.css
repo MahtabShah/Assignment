@@ -47,7 +47,8 @@ button:hover {
   background: linear-gradient(270deg, #f64606, #ffb300);
 }
 
-form input {
+form input,
+button {
   border-radius: 4px !important;
-  height: 2.3rem !important;
+  height: 2.4rem !important;
 }
