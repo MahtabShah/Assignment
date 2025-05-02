@@ -4,11 +4,17 @@ const Icon = ({ icon, ExtraClass = "flex-column justify-content-center" }) => {
       <a
         href={`https://${icon.alink}.com`}
         className={`icon-container d-flex align-items-center justify-content-center border p-2 pe-3 ps-3 d-flex rounded-4 text-decoration-none transition transition-1000 ${ExtraClass} alink`}
+        key={icon.alink}
       >
         <span className="d-flex flex-grow-1 align-items-center justify-content-end p-2 ispan">
-          <i class={`fab fa-${icon.ilink} fs-2 text-white`}></i>
+          <i
+            class={`fab fa-${icon.ilink} fs-2 text-white`}
+            key={icon.ilink}
+          ></i>
         </span>
-        <span className="text-center text-white">{icon.name}</span>
+        <span className="text-center text-white" key={icon.name}>
+          {icon.name}
+        </span>
       </a>
     </>
   );
@@ -21,9 +27,9 @@ const SocialIcons = () => {
     <>
       <section
         className="border d-flex flex-column p-4 gap-4 leftsection rounded-3 shadow-lgy"
-        id="sect ion2"
+        key={"section2"}
       >
-        <span className="fs-4 text-dark fw-bold ms-4 me-4">
+        <span className="fs-4 text-dark fw-bold ms-4 me-4" key={"spanh3"}>
           Help us build the Largest CAT communities
         </span>
         {
@@ -37,7 +43,10 @@ const SocialIcons = () => {
             ExtraClass="flex-row-reverse justify-content-between m-4 mb-0 mt-0"
           />
         }
-        <div className="bottomsection d-grid gap-5 p-4 pt-0">
+        <div
+          className="bottomsection d-grid gap-5 p-4 pt-0"
+          key={"bottomsection"}
+        >
           {IconsAlink.map((a, index) => {
             return (
               <Icon

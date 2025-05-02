@@ -55,3 +55,9 @@ a:hover span i {
 .bottomsection .ispan {
   padding: 10% !important;
 }
+
+/* git add .
+git commit -m "pushed"
+git push origin main
+npm run build  
+npm run deploy */
