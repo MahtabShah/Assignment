@@ -31,7 +31,7 @@ body {
 
 @media screen and (min-width: 0) and (max-width: 480px) {
   * {
-    font-size: clamp(9px, calc(4% + 0.4rem + 1vw), 1.32rem);
+    font-size: clamp(9px, calc(10% + 0.4rem + 1vw), 1.32rem);
   }
 
   .bottomsection {
@@ -68,5 +68,9 @@ body {
 
   .alink {
     padding: calc(2% + 1rem) !important;
+  }
+
+  .leftsection {
+    gap: 2rem !important;
   }
 }
