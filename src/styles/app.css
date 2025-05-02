@@ -40,6 +40,12 @@ body {
     gap: calc(2rem - 2%) !important;
   }
 
+  .leftsection {
+    gap: 2.7rem !important;
+    padding: calc(2.4rem - 5%) !important;
+    /* border-radius: 0 !important; */
+  }
+
   span,
   .container {
     margin: 0 !important;
@@ -52,12 +58,12 @@ body {
 
   .section2 {
     /* border: 2px solid rgb(242, 61, 7) !important; */
-    padding: 0 !important;
+    padding: calc(1rem - 1%) !important;
   }
 
-  :where(form) :where(div) {
+  /* :where(form) :where(div) {
     flex-direction: column;
-  }
+  } */
 
   :where(form) :where(button) {
     align-items: center;
@@ -69,11 +75,5 @@ body {
 
   .alink {
     padding: calc(2% + 1rem) !important;
-  }
-
-  .leftsection {
-    gap: 2.7rem !important;
-    padding: calc(2.4rem - 5%) !important;
-    border-radius: 0 !important;
   }
 }

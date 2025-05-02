@@ -27,7 +27,7 @@ const Form = () => {
         noValidate
       >
         <h3 className="fs-4 text-dark fw-bold">
-          Book 1 on 1 call counselling from MBA Expert
+          Book 1 on 1 call counselling from MBA Experts
         </h3>
 
         <ul className="d-grid gap-4">
