@@ -20,9 +20,10 @@ const Icon = ({ icon, ExtraClass = "flex-column justify-content-center" }) => {
   );
 };
 
+
 const SocialIcons = () => {
   const IconsName = ["Facebook", "Instagram", "Youtube", "Telegram"];
-  const IconsAlink = ["facebook", "instagram", "youtube", "telegram"];
+  const IconsAlink = ["facebook", "instagram", "youtube", "telegram"]; // change with links
   return (
     <>
       <section
